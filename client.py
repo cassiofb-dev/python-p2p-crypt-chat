@@ -27,7 +27,6 @@ class Client():
     self.client_socket.connect((self.server_url, self.server_port))
     self.connected = True
     while self.connected:
-      print("esperando mensagem...")
       server_message = self.decode_message(self.client_socket.recv(4096))
       os.system('cls' if os.name == 'nt' else 'clear')
       print(f"{server_message}")
