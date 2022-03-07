@@ -48,6 +48,8 @@ pip install cryptography
 py p2p.py
 ```
 
+![usage](https://i.imgur.com/9nBRiJe.gif)
+
 ## Credits
 
 This app uses the following open source projects:
